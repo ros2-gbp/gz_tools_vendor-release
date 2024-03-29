@@ -1,0 +1,11 @@
+ros-rolling-gz-tools-vendor (0.0.2-1bookworm) bookworm; urgency=high
+
+  * Update vendored package version
+  * Require calling find_package on the underlying package
+  * Fix linter (#1 <https://github.com/gazebo-release/gz_tools_vendor/issues/1>)
+  * Initial import
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Thu, 28 Mar 2024 05:00:00 -0000
+
+
