@@ -10,7 +10,7 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.0.4</version>
+  <version>0.0.5</version>
   <description>
     Vendor package for: gz-tools2 2.0.1
 
@@ -25,7 +25,6 @@
   <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
 
   <exec_depend>ruby</exec_depend>
-  <test_depend>rubocop</test_depend>
   <depend>gz_cmake_vendor</depend>
 
   <!-- Depend on the package we are vendoring to allow building it from source -->
