@@ -1,0 +1,33 @@
+ros-rolling-gz-tools-vendor (0.1.1-1bookworm) bookworm; urgency=high
+
+  * Disallow rubocop dependency (#4 <https://github.com/gazebo-release/gz_tools_vendor/issues/4>)
+  * Add support for prerelease suffixes (#2 <https://github.com/gazebo-release/gz_tools_vendor/issues/2>)
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Tue, 29 Oct 2024 05:00:00 -0000
+
+ros-rolling-gz-tools-vendor (0.1.0-1bookworm) bookworm; urgency=high
+
+  * Use an alias target for root library
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Tue, 23 Apr 2024 05:00:00 -0000
+
+ros-rolling-gz-tools-vendor (0.0.3-1bookworm) bookworm; urgency=high
+
+  * Add support for the <pkg>::<pkg> and <pkg>::all targets, fix sourcing of dsv files
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Wed, 10 Apr 2024 05:00:00 -0000
+
+ros-rolling-gz-tools-vendor (0.0.2-1bookworm) bookworm; urgency=high
+
+  * Update vendored package version
+  * Require calling find_package on the underlying package
+  * Fix linter (#1 <https://github.com/gazebo-release/gz_tools_vendor/issues/1>)
+  * Initial import
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Thu, 28 Mar 2024 05:00:00 -0000
+
+
