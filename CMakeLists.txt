@@ -6,6 +6,7 @@ project(gz_tools_vendor)
 set(LIB_VER_MAJOR 2)
 set(LIB_VER_MINOR 0)
 set(LIB_VER_PATCH 1)
+set(LIB_VER_SUFFIX "")
 
 # Derived variables
 set(LIB_NAME gz-tools)
@@ -31,7 +32,7 @@ endif()
 ament_vendor(${LIB_NAME_UNDERSCORE}_vendor
   SATISFIED ${${LIB_NAME_FULL}_FOUND}
   VCS_URL https://github.com/gazebosim/${GITHUB_NAME}.git
-  VCS_VERSION ${GITHUB_NAME}${LIB_VER_MAJOR}_${LIB_VER}
+  VCS_VERSION ${GITHUB_NAME}${LIB_VER_MAJOR}_${LIB_VER}${LIB_VER_SUFFIX}
   CMAKE_ARGS
     -DBUILD_DOCS:BOOL=OFF
   GLOBAL_HOOK
