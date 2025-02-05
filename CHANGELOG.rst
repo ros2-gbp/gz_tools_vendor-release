@@ -2,6 +2,11 @@
 Changelog for package gz_tools_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.2 (2025-02-05)
+------------------
+* Bump version to 2.0.2 (`#8 <https://github.com/gazebo-release/gz_tools_vendor/issues/8>`_)
+* Contributors: Addisu Z. Taddese
+
 0.1.1 (2024-10-29)
 ------------------
 * Disallow rubocop dependency (`#4 <https://github.com/gazebo-release/gz_tools_vendor/issues/4>`_)
