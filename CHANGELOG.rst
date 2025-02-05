@@ -2,18 +2,18 @@
 Changelog for package gz_tools_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.0.6 (2025-02-05)
+0.1.2 (2025-02-05)
 ------------------
-* Bump version to 2.0.2 (`#7 <https://github.com/gazebo-release/gz_tools_vendor/issues/7>`_)
+* Bump version to 2.0.2 (`#8 <https://github.com/gazebo-release/gz_tools_vendor/issues/8>`_)
 * Contributors: Addisu Z. Taddese
 
-0.0.5 (2024-10-29)
+0.1.1 (2024-10-29)
 ------------------
-* Remove rubocop from our dependencies (`#3 <https://github.com/gazebo-release/gz_tools_vendor/issues/3>`_)
-  This also includes changes related to version prefixes.
+* Disallow rubocop dependency (`#4 <https://github.com/gazebo-release/gz_tools_vendor/issues/4>`_)
+* Add support for prerelease suffixes (`#2 <https://github.com/gazebo-release/gz_tools_vendor/issues/2>`_)
 * Contributors: Addisu Z. Taddese
 
-0.0.4 (2024-04-25)
+0.1.0 (2024-04-23)
 ------------------
 * Use an alias target for root library
 * Contributors: Addisu Z. Taddese
