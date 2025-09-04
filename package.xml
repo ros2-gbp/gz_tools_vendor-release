@@ -10,9 +10,9 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.1.2</version>
+  <version>0.2.0</version>
   <description>
-    Vendor package for: gz-tools2 2.0.2
+    Vendor package for: gz-tools2 2.0.3
 
     Gazebo Tools: Entrypoint to Gazebo's command line interface
   </description>
