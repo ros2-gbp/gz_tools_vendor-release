@@ -13,11 +13,11 @@ set(LIB_NAME gz-tools)
 set(GITHUB_NAME gz-tools)
 string(REPLACE "-" "_" LIB_NAME_UNDERSCORE ${LIB_NAME})
 set(LIB_NAME_COMP_PREFIX ${LIB_NAME})
-set(LIB_NAME_FULL ${LIB_NAME}${LIB_VER_MAJOR})
+set(LIB_NAME_FULL gz-tools2)
 set(LIB_VER ${LIB_VER_MAJOR}.${LIB_VER_MINOR}.${LIB_VER_PATCH})
 
 option(VENDOR_FROM_LIB_VCS_REF
-  "Vendor from a VCS ref instead of tag. Uses the value in LIB_VCS_REF if specified or main otherwise"
+  "Vendor from a VCS ref instead of tag. Uses the value in LIB_VCS_REF if specified or gz-tools2 otherwise"
   OFF)
 if(NOT VENDOR_FROM_LIB_VCS_REF)
   set(LIB_VCS_VER ${GITHUB_NAME}${LIB_VER_MAJOR}_${LIB_VER}${LIB_VER_SUFFIX})
