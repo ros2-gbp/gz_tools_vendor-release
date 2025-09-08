@@ -2,6 +2,19 @@
 Changelog for package gz_tools_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2025-09-08)
+------------------
+* Jetty support: minor updates (`#9 <https://github.com/gazebo-release/gz_tools_vendor/issues/9>`_)
+  * Add option VENDOR_FROM_LIB_VCS_REF
+  This allows vendoring from a specified vcs ref instead
+  of the hard-coded tag. When this option is set to true,
+  a branch, tag, or commit can be specified in the
+  LIB_VCS_REF variable. If LIB_VCS_REF is unspecified,
+  vendoring will use gz-tools2.
+  * 2.0.3
+  ---------
+* Contributors: Steve Peters
+
 0.2.0 (2025-09-04)
 ------------------
 * Bump version to 2.0.3 (`#12 <https://github.com/gazebo-release/gz_tools_vendor/issues/12>`_)
