@@ -2,6 +2,9 @@
 Changelog for package gz_tools_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.0 (2026-05-14)
+------------------
+
 0.2.1 (2025-09-08)
 ------------------
 * Jetty support: minor updates (`#9 <https://github.com/gazebo-release/gz_tools_vendor/issues/9>`_)
