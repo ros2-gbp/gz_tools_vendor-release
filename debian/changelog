@@ -1,0 +1,69 @@
+ros-lyrical-gz-tools-vendor (0.2.2-1resolute) resolute; urgency=high
+
+  * Bump version to 2.0.4 (#16 <https://github.com/gazebo-release/gz_tools_vendor/issues/16>)
+  * Contributors: Carlos Agüero
+
+ -- "Addisu Z. Taddese" <addisuzt@intrinsic.ai>  Mon, 17 Aug 2026 22:00:00 -0000
+
+ros-lyrical-gz-tools-vendor (0.2.1-1resolute) resolute; urgency=high
+
+  * Jetty support: minor updates (#9 <https://github.com/gazebo-release/gz_tools_vendor/issues/9>)
+    * Add option VENDOR_FROM_LIB_VCS_REF
+    This allows vendoring from a specified vcs ref instead
+    of the hard-coded tag. When this option is set to true,
+    a branch, tag, or commit can be specified in the
+    LIB_VCS_REF variable. If LIB_VCS_REF is unspecified,
+    vendoring will use gz-tools2.
+    * 2.0.3
+    ---------
+  * Contributors: Steve Peters
+
+ -- "Addisu Z. Taddese" <addisuzt@intrinsic.ai>  Sun, 07 Sep 2025 22:00:00 -0000
+
+ros-lyrical-gz-tools-vendor (0.2.0-1resolute) resolute; urgency=high
+
+  * Bump version to 2.0.3 (#12 <https://github.com/gazebo-release/gz_tools_vendor/issues/12>)
+  * Contributors: Carlos Agüero
+
+ -- "Addisu Z. Taddese" <addisuzt@intrinsic.ai>  Wed, 03 Sep 2025 22:00:00 -0000
+
+ros-lyrical-gz-tools-vendor (0.1.2-1resolute) resolute; urgency=high
+
+  * Bump version to 2.0.2 (#8 <https://github.com/gazebo-release/gz_tools_vendor/issues/8>)
+  * Contributors: Addisu Z. Taddese
+
+ -- "Addisu Z. Taddese" <addisuzt@intrinsic.ai>  Tue, 04 Feb 2025 23:00:00 -0000
+
+ros-lyrical-gz-tools-vendor (0.1.1-1resolute) resolute; urgency=high
+
+  * Disallow rubocop dependency (#4 <https://github.com/gazebo-release/gz_tools_vendor/issues/4>)
+  * Add support for prerelease suffixes (#2 <https://github.com/gazebo-release/gz_tools_vendor/issues/2>)
+  * Contributors: Addisu Z. Taddese
+
+ -- "Addisu Z. Taddese" <addisuzt@intrinsic.ai>  Mon, 28 Oct 2024 23:00:00 -0000
+
+ros-lyrical-gz-tools-vendor (0.1.0-1resolute) resolute; urgency=high
+
+  * Use an alias target for root library
+  * Contributors: Addisu Z. Taddese
+
+ -- "Addisu Z. Taddese" <addisuzt@intrinsic.ai>  Mon, 22 Apr 2024 22:00:00 -0000
+
+ros-lyrical-gz-tools-vendor (0.0.3-1resolute) resolute; urgency=high
+
+  * Add support for the <pkg>::<pkg> and <pkg>::all targets, fix sourcing of dsv files
+  * Contributors: Addisu Z. Taddese
+
+ -- "Addisu Z. Taddese" <addisuzt@intrinsic.ai>  Tue, 09 Apr 2024 22:00:00 -0000
+
+ros-lyrical-gz-tools-vendor (0.0.2-1resolute) resolute; urgency=high
+
+  * Update vendored package version
+  * Require calling find_package on the underlying package
+  * Fix linter (#1 <https://github.com/gazebo-release/gz_tools_vendor/issues/1>)
+  * Initial import
+  * Contributors: Addisu Z. Taddese
+
+ -- "Addisu Z. Taddese" <addisuzt@intrinsic.ai>  Wed, 27 Mar 2024 23:00:00 -0000
+
+
