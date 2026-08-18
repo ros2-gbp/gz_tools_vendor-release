@@ -1,0 +1,54 @@
+ros-jazzy-gz-tools-vendor (0.0.8-1bookworm) bookworm; urgency=high
+
+  * Bump version to 2.0.4 (#13 <https://github.com/gazebo-release/gz_tools_vendor/issues/13>)
+  * Contributors: Carlos Agüero
+
+ -- "Addisu Z. Taddese" <addisuzt@intrinsic.ai>  Mon, 17 Aug 2026 22:00:00 -0000
+
+ros-jazzy-gz-tools-vendor (0.0.7-1bookworm) bookworm; urgency=high
+
+  * Bump version to 2.0.3 (#10 <https://github.com/gazebo-release/gz_tools_vendor/issues/10>)
+  * Contributors: Carlos Agüero
+
+ -- "Addisu Z. Taddese" <addisuzt@intrinsic.ai>  Wed, 03 Sep 2025 22:00:00 -0000
+
+ros-jazzy-gz-tools-vendor (0.0.6-1bookworm) bookworm; urgency=high
+
+  * Bump version to 2.0.2 (#7 <https://github.com/gazebo-release/gz_tools_vendor/issues/7>)
+  * Contributors: Addisu Z. Taddese
+
+ -- "Addisu Z. Taddese" <addisuzt@intrinsic.ai>  Tue, 04 Feb 2025 23:00:00 -0000
+
+ros-jazzy-gz-tools-vendor (0.0.5-1bookworm) bookworm; urgency=high
+
+  * Remove rubocop from our dependencies (#3 <https://github.com/gazebo-release/gz_tools_vendor/issues/3>)
+    This also includes changes related to version prefixes.
+  * Contributors: Addisu Z. Taddese
+
+ -- "Addisu Z. Taddese" <addisuzt@intrinsic.ai>  Mon, 28 Oct 2024 23:00:00 -0000
+
+ros-jazzy-gz-tools-vendor (0.0.4-1bookworm) bookworm; urgency=high
+
+  * Use an alias target for root library
+  * Contributors: Addisu Z. Taddese
+
+ -- "Addisu Z. Taddese" <addisuzt@intrinsic.ai>  Wed, 24 Apr 2024 22:00:00 -0000
+
+ros-jazzy-gz-tools-vendor (0.0.3-1bookworm) bookworm; urgency=high
+
+  * Add support for the <pkg>::<pkg> and <pkg>::all targets, fix sourcing of dsv files
+  * Contributors: Addisu Z. Taddese
+
+ -- "Addisu Z. Taddese" <addisuzt@intrinsic.ai>  Tue, 09 Apr 2024 22:00:00 -0000
+
+ros-jazzy-gz-tools-vendor (0.0.2-1bookworm) bookworm; urgency=high
+
+  * Update vendored package version
+  * Require calling find_package on the underlying package
+  * Fix linter (#1 <https://github.com/gazebo-release/gz_tools_vendor/issues/1>)
+  * Initial import
+  * Contributors: Addisu Z. Taddese
+
+ -- "Addisu Z. Taddese" <addisuzt@intrinsic.ai>  Wed, 27 Mar 2024 23:00:00 -0000
+
+
