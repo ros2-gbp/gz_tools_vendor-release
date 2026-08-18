@@ -2,6 +2,11 @@
 Changelog for package gz_tools_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.2 (2026-08-18)
+------------------
+* Bump version to 2.0.4 (`#16 <https://github.com/gazebo-release/gz_tools_vendor/issues/16>`_)
+* Contributors: Carlos Agüero
+
 0.2.1 (2025-09-08)
 ------------------
 * Jetty support: minor updates (`#9 <https://github.com/gazebo-release/gz_tools_vendor/issues/9>`_)
