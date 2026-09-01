@@ -10,9 +10,9 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.3.2</version>
+  <version>0.1.5</version>
   <description>
-    Vendor package for: gz-tools 3.0.0
+    Vendor package for: gz-tools2 2.0.4
 
     Gazebo Tools: Entrypoint to Gazebo's command line interface
   </description>
@@ -29,7 +29,7 @@
   <depend>gz_cmake_vendor</depend>
 
   <!-- Depend on the package we are vendoring to allow building it from source -->
-  <depend condition="$GZ_BUILD_FROM_SOURCE != ''">gz-tools</depend>
+  <depend condition="$GZ_BUILD_FROM_SOURCE != ''">gz-tools2</depend>
 
   <test_depend>ament_cmake_copyright</test_depend>
   <test_depend>ament_cmake_lint_cmake</test_depend>
