@@ -2,6 +2,12 @@
 Changelog for package gz_tools_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.6 (2026-09-04)
+------------------
+* Revert "Enable Python bindings (`#18 <https://github.com/gazebo-release/gz_tools_vendor/issues/18>`_)" (`#20 <https://github.com/gazebo-release/gz_tools_vendor/issues/20>`_)
+  This reverts commit 80dc2b667402e5d7e202f61b9c778022af000149.
+* Contributors: Addisu Z. Taddese
+
 0.1.5 (2026-08-31)
 ------------------
 * Enable Python bindings (`#18 <https://github.com/gazebo-release/gz_tools_vendor/issues/18>`_)
